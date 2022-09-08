@@ -11,11 +11,11 @@ col2.image(Image.open('dp.png'))
 
 st.header('Andrew Wallace, Ph.D.')
 
-st.info('DData Scientist and Computational Biologist at Genentech')
+st.info('Data Scientist and Computational Biologist at Genentech')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
+st_button('github', 'https://github.com/ajw2329', 'GitHub', icon_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
 st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
