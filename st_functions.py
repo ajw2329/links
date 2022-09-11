@@ -96,7 +96,11 @@ def st_button(icon, url, label, iconsize):
     return st.markdown(button_code, unsafe_allow_html=True)
 
 
-def st_project_button(label, iconsize):
+def st_project_button(
+        label, 
+        iconsize,
+        url,
+        proj_label):
     button_code = f'''
     <div class="project_button">
     <p>
@@ -106,19 +110,14 @@ def st_project_button(label, iconsize):
             </svg>
             {label}
         </div>
-    </p></div>'''
-    
-    return st.markdown(button_code, unsafe_allow_html=True)
-                       
-
-def st_project_sub_button(url, label):
-    button_code = f'''
+    </p></div>
     <div class="project_sub_button">
     <p>
         <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
-            {label}
+            {proj_label}
         </a>
     </p></div>'''
     
     return st.markdown(button_code, unsafe_allow_html=True)
+
 
