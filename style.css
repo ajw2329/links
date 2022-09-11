@@ -28,3 +28,11 @@ footer {
 header {
     visibility: hidden;
 }
+
+.project_sub_button {
+    display: none;
+}
+
+.project_button:hover + .project_sub_button {
+    display: block;
+}
