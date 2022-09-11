@@ -94,3 +94,7 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''        
     return st.markdown(button_code, unsafe_allow_html=True)
+
+
+def st_button_outer(icon, url, label, iconsize):
+     <div class="myDIV">Hover over me.</div>
