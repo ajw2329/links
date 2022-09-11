@@ -98,7 +98,7 @@ def st_button(icon, url, label, iconsize):
 
 def st_project_button(label, iconsize):
     button_code = f'''
-    <div class=project_button>
+    <div class="project_button">
     <p>
         <div class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
             <svg xmlns="http://www.w3.org/2000/svg" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-cup-fill" viewBox="0 0 16 16">
@@ -113,7 +113,7 @@ def st_project_button(label, iconsize):
 
 def st_project_sub_button(url, label):
     button_code = f'''
-    <div class=project_sub_button>
+    <div class="project_sub_button">
     <p>
         <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
             {label}
