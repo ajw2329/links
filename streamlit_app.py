@@ -1,5 +1,5 @@
 import streamlit as st
-from st_functions import st_button, load_css, st_project_button, st_project_sub_button
+from st_functions import st_button, load_css, st_project_button
 from PIL import Image
 
 load_css()
