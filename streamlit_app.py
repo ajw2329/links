@@ -21,5 +21,7 @@ st_button('github', 'https://github.com/ajw2329', 'GitHub', icon_size)
 #st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
 st_button('linkedin', 'www.linkedin.com/in/ajw2329', 'Follow me on LinkedIn', icon_size)
 st_button('keyboard', 'https://anjowall.shinyapps.io/digital_divide_dash/', 'Visualizing the Digital Divide', icon_size)
+st_project_button('Projects', iconsize)
+st_project_sub_button('https://anjowall.shinyapps.io/digital_divide_dash/', 'Visualizing the Digital Divide'):
 #st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
 #st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
