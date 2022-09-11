@@ -34,9 +34,12 @@ header {
 }
 
 .project_sub_button:hover {
-    display: block;
+  display: inline-flex;
+  transition: all 0s ease 1s; /*delay 1s*/
+  visibility: hidden;
 }
 
 .project_button:hover + .project_sub_button {
-    display: block;
+  transition-delay: 0s;
+  visibility: visible;
 }
