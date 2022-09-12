@@ -30,7 +30,6 @@ header {
 }
 
 .project_sub_button {
-  display: inline-flex;
   transition: all 0s ease 1s; /*delay 1s*/
   visibility: hidden;
 }
