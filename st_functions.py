@@ -116,7 +116,10 @@ def st_project_button(
         <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
             {proj_label}
         </a>
-    </p></div>'''
+    </p>
+    <p>Visualization of the digital divide in the San Francisco Bay Area.
+    </p>
+    </div>'''
     
     return st.markdown(button_code, unsafe_allow_html=True)
 
