@@ -43,3 +43,18 @@ header {
   transition-delay: 0s;
   visibility: visible;
 }
+
+.project_description {
+  transition: all 0s ease 1s; /*delay 1s*/
+  visibility: hidden;
+}
+
+.project_description:hover {
+  transition-delay: 0s;
+  visibility: visible;
+}
+
+.project_sub_button:hover + .project_description {
+  transition-delay: 0s;
+  visibility: visible;
+}
