@@ -117,8 +117,11 @@ def st_project_button(
             {proj_label}
         </a>
     </p>
-    <p>Visualization of the digital divide in the San Francisco Bay Area.
+    <div class="project_description"
+    <p>
+    Visualization of the digital divide in the San Francisco Bay Area.
     </p>
+    </div>
     </div>'''
     
     return st.markdown(button_code, unsafe_allow_html=True)
